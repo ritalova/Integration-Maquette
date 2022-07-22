@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,300;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #345765;
+}
+header nav {
+    padding: 1rem 2rem;
+    text-align: right;
+    max-width: 1400px;
+    font-size: 1rem;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0 auto;
+}
+nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li {
+    list-style: none;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 1.25rem;
+}
+
+h1 {
+    max-width: 1400px;
+    height: 57px;
+    text-transform: uppercase;
+    padding: 3rem 1rem;
+    color: #34A58A;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    font-size: 3rem;
+    font-style: normal;
+}
+.club{
+    background: url(billard-club-de-guignicourt.png);
+    border-radius: 10px;
+    height: auto;
+    max-width: 50%;
+
+}
+.informations{
+    display: flex;
+    margin-top: 2rem ;
+    
+}
+.presentation, .localisation{
+    flex-basis: 50%;
+}
+
+.h2-1 {
+    font-weight: 600;
+    line-height: 36px;
+    color: #6B5B54;
+    font-size: 2.25rem;
+    font-style: normal;
+    letter-spacing: 0.06em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.paragraphe {
+    font-weight: 300;
+    line-height: 25px;
+    color: #000000;
+    font-style: normal;
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+}
+.coordonnées {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.25rem;
+    color: #6B5B54;
+    letter-spacing: 0.06em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.logo1 {
+    color: #34A58A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+}
+.carte {
+    color: #6B5B54;
+    letter-spacing: 0.06em;
+    font-size: 2.25em;
+    padding: 1rem;
+    font-family: 600;
+    font-style: normal;
+    text-align: calc(100%);
+}
+.img-carte {
+    font-style: normal;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #ffffff;
+}
+.actualite{
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0.25);
+    border: 2px solid #ffffff;
+    width: 1600px;
+    height: 859px;
+    background: #ffffff;
+    padding: 1rem;
+
+}
+.block1::first-line{
+    color: #6B5B54;
+    padding-bottom: 1rem 1rem;
+    text-align: center;
+    padding: 1rem;
+    font-style: normal;
+    font-size: 2.25rem;
+    line-height: 36px;
+}
+.block1,.block2{
+   flex-basis: 50%;
+   width: 100%;
+   top: 50%;
+   left: 50%;
+   
+
+}
+
+.article,.img{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 350px;
+    padding: 0.75rem;
+}
+.article h3{
+
+}
+.article{
+    letter-spacing: 0.06em;
+    padding: 0;
+
+    
+}
+
+.logo-plus{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    float: right;
+
+}
+.logo-plus a{
+    text-decoration: none;
+    color: #34A58A;
+}
+.Tout-savoir a{
+    text-decoration: none;
+    background: #34A58A;
+    color: #ffffff;
+    border-radius: 5px; 
+    float: right;
+}
+.datetime{
+    color: #345765;
+    font-size: 0.875rem;
+    font-style: normal;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+
+}
+footer {
+    background: #85edd5;
+    color: #ffffff;
+    width: auto;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;  
+    margin: 2rem;
+    padding: 2rem;
+    
+
+}
+.coordonnees a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.siege-social a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.paragraphe::first-line{
+    text-decoration: underline;
+    color: #ffffff;
+}
+.paragraphe{  
+    color: #ffffff; 
+}
+.Umb ul{
+    display: flex;
+}
+.Umb a{
+    color: #ffffff;
+    border-right: 2px solid #ffffff; 
+    font-size: 1rem;
+    padding: .25rem;
+}
+.commite ul{
+    display: flex;
+}
+.commite li{
+    list-style: none;
+}
+.commite a{
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding: 0.50rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.lien{
+    float: right;
+}
+.pied {
+    font-size: 1.25rem;
+    text-align: center;
+    border-top: 1px solid;
+    padding: 1rem;
+    
+}
+@media screen and (mn-width: 669px) {
+    nav{
+        color: burlywood;
+    }
+    h1{
+        color: darkolivegreen;
+        font-size: 2rem;
+        font-weight: 400;
+
+    }
+    .club{
+        width: 320px;
+    }
+    h2-1,.coordonnées,.carte{
+        color: cadetblue;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    .actualite h2 {
+         color: aquamarine;
+         font-size: 1.25rem;
+         font-weight: 300;
+    }
+    .article h3{
+        color: brown;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .article p{
+        font-size: 0.75rem;
+        color: coral;
+        font-weight: 200;
+    }
+    .foother p{
+        color: burlywood;
+        font-size: 1rem;
+
+    }
+
+    
+    
+}
